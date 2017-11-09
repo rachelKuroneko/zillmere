@@ -38,18 +38,16 @@
 
      </div>     
         <div id="header">
-        <a style="position: absolute; top: 20px; right: 60px;" class="myButton" href="https://zillmeredentureclinic.com.au/">Find Out More</a>
-<a href="https://www.facebook.com/zillmeredentureclinic.com.au/" target="_blank" style="position: absolute; top: 20px; right: 20px;"><img src="https://zillmeredentureclinic.com.au/assets/images/FB-f-Logo__blue_29.png" alt="Facebook Icon"/></a>
-<span style="position: absolute;top: 55px;right: 20px;font-size: 12px;"><a href="https://www.facebook.com/zillmeredentureclinic.com.au/" target="_blank">Like us on Facebook</a></span>
+        <input type="button" value="Find Out More" style="position: absolute; top: 20px; right: 60px;" class="myButton" onclick="window.location.href='https://zillmeredentureclinic.com.au'"/>
+        <a href="https://www.facebook.com/zillmeredentureclinic.com.au/" target="_blank" style="position: absolute; top: 20px; right: 20px;"><img src="https://zillmeredentureclinic.com.au/assets/images/FB-f-Logo__blue_29.png" alt="Facebook Icon"/></a>
+        <span style="position: absolute;top: 55px;right: 20px;font-size: 12px;"><a href="https://www.facebook.com/zillmeredentureclinic.com.au/" target="_blank">Like us on Facebook</a></span>
             <div id="header-right">
-            
-                <span id="headerPhone">Tel: (07) 3265 7652</span>
-
+            <span id="headerPhone"><a href="tel:+61732657652">Tel: (07) 3265 7652</a></span>
             </div>
 
             <div id="logo">
 
-                <a href="/" title="Go to the home page"><img src="./img/header-logo-2016.png" alt="Zillmere Denture Clinic - Denise Toovey - Registered Dental Prosthetist/Dental Technician - Shop 3, 67 Dunsford Street, Zillmere, QLD 4034"></a>
+                <a href="/home" title="Go to the home page"><img src="./img/header-logo-2016.png" alt="Zillmere Denture Clinic - Denise Toovey - Registered Dental Prosthetist/Dental Technician - Shop 3, 67 Dunsford Street, Zillmere, QLD 4034"></a>
 
             </div>
         </div>
@@ -117,8 +115,8 @@ Do you have a broken denture?  Some denture repairs can even be done while you w
         <p>Shop 3, 67 Dunsford Street<br>
         Zillmere 4034
         <div style="height: 2px;"></div>
-        <span class="h3">Tel:</span> (07) 3265 7652<br>
-        <span class="h3">Email:</span> <a href="mailto:enquiries@zillmeredentureclinic.com.au">enquiries@zillmeredentureclinic.com.au</a><br />
+        <span class="h3">Tel: </span><a href="tel:+61732657652">(07) 3265 7652</a><br>
+        <span class="h3">Email: </span> <a href="mailto:enquiries@zillmeredentureclinic.com.au">enquiries@zillmeredentureclinic.com.au</a><br />
        
         <br class="clearBoth">
         <div id="onlineEnquiryDiv">
@@ -202,7 +200,7 @@ Do you have a broken denture?  Some denture repairs can even be done while you w
     
                 <div id="footer-info">
 
-                    <strong><a href="contact-us">Denise Toovey</a></strong><br />
+                    <strong>Denise Toovey</strong><br />
                     Shop 3, 67 Dunsford Street,<br />
                     Zillmere 4034<br />
                     <div style="margin-top: 10px;">Tel <strong>(07) 3265 7652</strong></div>

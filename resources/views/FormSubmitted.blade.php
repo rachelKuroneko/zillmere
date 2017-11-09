@@ -37,18 +37,16 @@
 
      </div>     
         <div id="header">
-        <a style="position: absolute; top: 20px; right: 60px;" class="myButton" href="https://zillmeredentureclinic.com.au/">Find Out More</a>
-<a href="https://www.facebook.com/zillmeredentureclinic.com.au/" target="_blank" style="position: absolute; top: 20px; right: 20px;"><img src="https://zillmeredentureclinic.com.au/assets/images/FB-f-Logo__blue_29.png" alt="Facebook Icon"/></a>
-<span style="position: absolute;top: 55px;right: 20px;font-size: 12px;"><a href="https://www.facebook.com/zillmeredentureclinic.com.au/" target="_blank">Like us on Facebook</a></span>
+        <input type="button" value="Find Out More" style="position: absolute; top: 20px; right: 60px;" class="myButton" onclick="window.location.href='https://zillmeredentureclinic.com.au'"/>
+        <a href="https://www.facebook.com/zillmeredentureclinic.com.au/" target="_blank" style="position: absolute; top: 20px; right: 20px;"><img src="https://zillmeredentureclinic.com.au/assets/images/FB-f-Logo__blue_29.png" alt="Facebook Icon"/></a>
+        <span style="position: absolute;top: 55px;right: 20px;font-size: 12px;"><a href="https://www.facebook.com/zillmeredentureclinic.com.au/" target="_blank">Like us on Facebook</a></span>
             <div id="header-right">
-            
-                <span id="headerPhone">Tel: (07) 3265 7652</span>
-
+                <span id="headerPhone"><a href="tel:+61732657652">Tel: (07) 3265 7652</a>
             </div>
 
             <div id="logo">
 
-                <a href="/" title="Go to the home page"><img src="./img/header-logo-2016.png" alt="Zillmere Denture Clinic - Denise Toovey - Registered Dental Prosthetist/Dental Technician - Shop 3, 67 Dunsford Street, Zillmere, QLD 4034"></a>
+                <a href="/home" title="Go to the home page"><img src="./img/header-logo-2016.png" alt="Zillmere Denture Clinic - Denise Toovey - Registered Dental Prosthetist/Dental Technician - Shop 3, 67 Dunsford Street, Zillmere, QLD 4034"></a>
 
             </div>
         </div>
@@ -66,7 +64,7 @@
         WE HAVE RECEIVED YOUR APPLICATION. THANK YOU VERY MUCH, WE WILL ATTEND TO YOU SHORTLY!
     </div>
         <div id="content-left">
-            <a class="myButton" href="/home">Back to Home</a>
+            <input type="button" value="Back to Home" class="myButton" onclick="window.location.href='/home'"/>
         </div>
     </div>
 </div>

@@ -49,6 +49,7 @@ a {
 
 a:hover, #header-right a:hover {
 	color: black;
+	text-decoration: underline;
 }
 
 /* Header */
@@ -70,10 +71,15 @@ a:hover, #header-right a:hover {
 	text-align: right;
 	margin-top: 85px;
 	margin-right: 25px;
-
 }
 
-#headerPhone{font-size:28px; font-weight:bold; color:#000;}
+#headerPhone
+{
+	font-size:28px; 
+	font-weight:bold; 
+	color:#000;
+
+}
 
 #header-right a {
 	color: #732c80;
